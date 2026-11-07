@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Project-specific ignores — Olist Marketplace Metrics
+# ---------------------------------------------------------------------------
+
+# Raw Kaggle CSVs — NOT redistributed. See data/README.md for provenance.
+# The repo is public; these files must never enter git history.
+data/raw/*.csv
+
+# Secrets — repo is public
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
